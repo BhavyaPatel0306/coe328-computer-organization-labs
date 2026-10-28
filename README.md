@@ -26,7 +26,7 @@ The VHDL backups are preserved as supplied. This is an archive of coursework art
 
 ## Opening and reproducing
 
-Use a compatible Intel/Altera Quartus environment to inspect the schematic and waveform formats. The exact original tool version and target-device setup are not documented here. Consult the report and retained compilation reports before rebuilding.
+The [archived component build report](Lab6_ProjectFiles/Components/Latch/output_files/lab6.flow.rpt) identifies **Quartus II 13.0.1 SP1** and **Cyclone II EP2C35F672C6**, with top-level entity **ssegcode**. This is evidence for a display-component build, not a verified build or board deployment of the complete processor. Use a compatible Intel/Altera Quartus environment and recover the intended project settings before rebuilding.
 
 If reconstructing a project, work in a separate copy: inspect the VHDL backups, restore the required source filenames, configure the device and top-level design, and verify dependencies before compiling. No fresh compilation, simulation or hardware validation is claimed.
 
@@ -36,4 +36,4 @@ The artifacts illustrate how combinational components and sequential state logic
 
 ## Next improvements
 
-Document the original toolchain and device, identify canonical source files, and add a reproducible simulation procedure with explicit expected outputs. Preserve the original coursework artifacts while doing so.
+Recover the full-system project settings, identify canonical source files, and add a reproducible simulation procedure with explicit expected outputs. Preserve the original coursework artifacts while doing so.
